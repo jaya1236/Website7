@@ -1,0 +1,190 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5ec;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, pink 0%,pink 20%, violet 20%, violet 50%, pink 50%, pink 75%, violet 75%, violet 100% );
+}
+.head {
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    height: 250px;
+}
+.jay {
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Profile section styles */
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20%;
+    
+    margin-left: 30px;
+    width: 200px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+
+}
+
+.designation {
+    background-color: #ff7b7b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.designation,
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 16px;
+}
+
+/* Content section styles */
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+/* Work experience styles */
+.work-experience,
+.contact-info,
+.skills {
+    margin-bottom: 20px;
+}
+
+.work-experience h2,
+.contact-info h2,
+.skills h2 {
+    margin-bottom: 10px;
+    color: #ff7b7b;
+}
+
+.year {
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #ff7b7b;
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.job h3 {
+    margin-bottom: 5px;
+}
+
+.job p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.job ol {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Contact info styles */
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Skills styles */
+.skills ol {
+    margin-bottom: 10px;
+}
+
+.categories {
+   
+    margin-top: 10px;
+
+}
+ span{
+    
+    margin-right: 10px;
+    background-color: pink;
+    padding: 8px;
+    border-radius: 50px;
+ }
+
+/* Right side section styles */
+.right-side {
+    background-color: white;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.right-side h2 {
+    margin-bottom: 10px;
+    color: #ff7b7b;
+}
+
+.right-side ul {
+    list-style-type: none;
+}
+
+.right-side ul li {
+    margin-bottom: 10px;
+}
+
+.info {
+    background-color: pink;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.list {
+    line-height: 25px;
+    color: black;
+}
+.line {
+    line-height: 25px;
+}
+.space {
+    color: rgb(223, 40, 70);
+    font-weight: bold;
+    
+}
